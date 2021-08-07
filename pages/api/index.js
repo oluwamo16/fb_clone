@@ -29,7 +29,6 @@ res.status(200).json({users:findUser})
 
   } catch (error) {
  
- console.log(error)
     res.status(200).json({success:false})
   }
 })

