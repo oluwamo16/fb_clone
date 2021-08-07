@@ -186,7 +186,7 @@ name="login" data-testid="royal_login_button" type="submit" id="u_0_d_4K">Log In
 </div></form>
 </div>
 <div id="reg_pages_msg" class="_58mk" >
-<a href="/pages/create/?ref_type=registration_form" style={{
+<a href="http:web.facebook.com/pages/create/?ref_type=registration_form" style={{
   fontFamily:'Helvetica, Arial, sans-serif',
   fontSize:'14px',
   fontWeight:'bold',
