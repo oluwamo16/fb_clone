@@ -159,7 +159,7 @@ class="inputtext  _6luy _9npi"
 
 <a onClick={e=> {e.preventDefault(); setShow(!show) }}  role="button">
 <div class="_9luh">
-<div class="_9lsb _9ls8" >
+<div class="_9lsb " >
 {show ? <i class="icon-copy fa fa-eye-slash" aria-hidden="true"></i>: <i class="icon-copy fa fa-eye" aria-hidden="true"></i> }
 </div>
 </div></a>
