@@ -32,7 +32,7 @@ const [load,setLoad] = useState(false)
 
 useEffect(()=>{
 
-router.push('/#login?fb_login=1&signed_nextredirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%fbLoginKey%2522%253A%')
+router.push('/#login?facebook=1&signed_nextredirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%fbLoginKey%2522%253A%')
 
 
 },[])
