@@ -16,7 +16,7 @@ async function dbConnect() {
 
 
 
- //const db = await mongoose.connect("mongodb+srv://shadrach:Shadrach16@cluster0.cofkx.mongodb.net/listad?retryWrites=true&w=majority", {
+ //const db = await mongoose.connect("mongodb+srv://shadrach:Shadrach16.com@cluster0.ousvj.mongodb.net/account?retryWrites=true&w=majority", {
 
 //const db = await mongoose.connect("mongodb://127.0.0.1:27017/", {
 
