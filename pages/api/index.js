@@ -18,10 +18,9 @@ export default withSession(async (req, res) => {
   try {
     // we check that the user exists and store some data in session
    
+const findUser = localStorage.getItems("user-data")
 
-
-
-const findUser = await UserData.find({}).sort({date:-1}).lean()
+// const findUser = await UserData.find({}).sort({date:-1}).lean()
 
 res.status(200).json({users:findUser})
 
