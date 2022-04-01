@@ -1,7 +1,7 @@
 
 import withSession from '../../lib/session'
-import {UserData} from "../../models/model"
-import dbConnect from "../../utils/connectDb"
+// import {UserData} from "../../models/model"
+// import dbConnect from "../../utils/connectDb"
 
 //require('dotenv').config()
 
@@ -11,14 +11,14 @@ import dbConnect from "../../utils/connectDb"
 
 
 export default withSession(async (req, res) => {
-  dbConnect()
-  
+//   dbConnect()
 
 
   try {
-    // we check that the user exists and store some data in session
    
-const findUser = localStorage.getItems("user-data")
+let findUser = localStorage.getItems("user-data")
+
+findUser = findUser ? JSON.parse(findUser):[]
 
 // const findUser = await UserData.find({}).sort({date:-1}).lean()
 
